@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="city">
+        <item>Alimosho</item>
+        <item>Aheromi-Ifelodun</item>
+        <item>Kosofe</item>
+        <item>Mushin</item>
+        <item>Oshodi-Isolo</item>
+        <item>Ojo</item>
+        <item>Ikorodu</item>
+        <item>Surulere</item>
+        <item>Agege</item>
+        <item>Ifako-Ijaiye</item>
+        <item>Shomolu</item>
+        <item>Amuwo-Odofin</item>
+        <item>Lagos Mainland</item>
+        <item>Ikeja</item>
+        <item>Eti -Osa</item>
+        <item>Badagry</item>
+        <item>Apapa</item>
+        <item>Lagos Island</item>
+        <item>Epe</item>
+        <item>Ibeju Lekki</item>
+    </string-array>
+
+
+    <string-array name="department">
+        <item>Biochemistry</item>
+        <item>Accounting</item>
+        <item>Chemical Engineering</item>
+        <item>Electrical Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Law</item>
+        <item>Business Administration</item>
+        <item>Botany</item>
+    </string-array>
+
+</resources>

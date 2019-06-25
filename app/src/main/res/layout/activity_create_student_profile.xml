@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+            <ImageView
+                android:id="@+id/close"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_close_black_24dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/background"
+                android:scaleType="centerCrop"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="110dp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"/>
+
+            <ImageView
+                android:id="@+id/edit"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/pen"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="240dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Select profile picture"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="230dp"/>
+
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="40dp"
+                android:src="@drawable/transparent_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="300dp"/>
+
+            <TextView
+                android:textSize="16sp"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"
+                android:background="@color/grey"
+                android:layout_width="90.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="295dp"
+                android:text="Username"
+                android:layout_centerHorizontal="true"
+                />
+
+            <EditText
+                android:id="@+id/userName"
+                android:textSize="14sp"
+                android:textColor="@color/colorWhite"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="300dp"
+                android:inputType="text"
+                android:layout_centerHorizontal="true"
+                />
+
+
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="40dp"
+                android:src="@drawable/transparent_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="380dp"/>
+
+            <TextView
+                android:textSize="16sp"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"
+                android:background="@color/grey"
+                android:layout_width="90.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="375dp"
+                android:text="PhoneNo"
+                android:layout_centerHorizontal="true"
+                />
+
+            <EditText
+                android:id="@+id/phoneNo"
+                android:textSize="14sp"
+                android:textColor="@color/colorWhite"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="380dp"
+                android:inputType="text"
+                android:layout_centerHorizontal="true"
+                />
+
+            <TextView
+                android:textSize="16sp"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"
+                android:background="@color/grey"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="460dp"
+                android:text="Select department"
+                android:layout_centerHorizontal="true"
+                />
+
+            <Spinner
+                android:textStyle="normal"
+                android:id="@+id/department"
+                android:padding="2dp"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="500dp"
+                android:spinnerMode="dropdown"
+                />
+
+            <TextView
+                android:textSize="16.0sp"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"
+                android:background="@color/grey"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="560dp"
+                android:text="Select location"
+                android:layout_centerHorizontal="true"
+                />
+
+            <Spinner
+                android:textStyle="normal"
+                android:id="@+id/city"
+                android:padding="2dp"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="600dp"
+                android:spinnerMode="dropdown"
+                />
+
+
+            <Button
+                android:id="@+id/create"
+                android:layout_height="50dp"
+                android:layout_width="wrap_content"
+                android:text="Create"
+                android:textAllCaps="false"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/button_white"
+                android:layout_marginTop="660dp"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

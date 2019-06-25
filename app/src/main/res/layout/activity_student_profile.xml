@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="180dp"
+        android:background="@color/grey"/>
+
+    <ImageView
+        android:id="@+id/edit"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/pen"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="310dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000"/>
+
+    <ImageView
+        android:id="@+id/icon1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="280dp"
+        android:layout_alignLeft="@+id/username"
+        android:layout_marginLeft="-100dp"
+        android:background="@drawable/ic_account_circle_black_24dp"/>
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="283dp"
+        android:text=""
+        android:textColor="@android:color/white"
+        />
+
+    <ImageView
+        android:id="@+id/icon2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="320dp"
+        android:layout_alignLeft="@+id/username"
+        android:layout_marginLeft="-100dp"
+        android:background="@drawable/ic_add_location_black_24dp"/>
+
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="323dp"
+        android:text=""
+        android:textColor="@android:color/white"
+        />
+
+    <ImageView
+        android:id="@+id/icon3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="360dp"
+        android:layout_alignLeft="@+id/username"
+        android:layout_marginLeft="-100dp"
+        android:background="@drawable/ic_book_black_24dp"/>
+
+    <TextView
+        android:id="@+id/department"
+        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="363dp"
+        android:text=""
+        android:textColor="@android:color/white"
+        />
+
+
+    <ImageView
+        android:id="@+id/icon4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="400dp"
+        android:layout_alignLeft="@+id/username"
+        android:layout_marginLeft="-100dp"
+        android:background="@drawable/ic_local_phone_black_24dp"/>
+
+    <TextView
+        android:id="@+id/phoneNo"
+        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="403dp"
+        android:text=""
+        android:textColor="@android:color/white"
+        />
+
+    <ImageView
+        android:id="@+id/update"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/pen"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/update_text"
+        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/update"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Please create a student profile so others can find you"
+        android:textColor="@android:color/white"/>
+</RelativeLayout>
